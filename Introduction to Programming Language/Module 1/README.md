@@ -23,3 +23,17 @@ int main() {
 stdio.h -> standard input output header file
 std -> standard
 io -> input output
+
+<details>
+<summary> Two types of function in C programming language </summary>
+
+```
+1. User defined function
+2. Library function
+```
+
+| main function | printf function |
+| --- | --- |
+| User defined function | Library function/ built in function |
+
+</details>
