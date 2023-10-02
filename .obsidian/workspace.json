@@ -11,12 +11,8 @@
             "id": "0dacbe5fa5d63c24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Programming Language/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming Language/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming Language/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Introduction to Programming Language/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,12 +141,16 @@
   },
   "active": "0dacbe5fa5d63c24",
   "lastOpenFiles": [
+    "Introduction to Programming Language/README.md",
+    "Introduction to Programming Language/Module 1/README.md",
+    "Introduction to Programming Language/Module 1/01_Hello_World.c",
+    "Introduction to Programming Language/Module 1",
+    "Introduction to Programming Language/New folder",
     "Introduction to Programming Language/01_Hello_World.exe",
     "Introduction to Programming Language/output/01_Hello_World.exe",
     "Introduction to Programming Language/output",
     "Introduction to Programming Language/01_Hello_World.c",
     "Math For Programming/README.md",
-    "Introduction to Programming Language/README.md",
     "Untitled.md",
     "Introduction to Programming Language",
     "Untitled 1.md",
