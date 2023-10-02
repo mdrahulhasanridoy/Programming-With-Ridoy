@@ -7,19 +7,18 @@ We will be start our programming journey with C programming language.
 ### What is header file?
 A header file is like a calculator through which we can calculate anything. In C programming language, we can use header file to use any function.
 
-### First C Program
-
-First C program is to print "Hello World" on the screen.
+<details>
+<summary>First C Program</summary>
 
 ```c
 #include <stdio.h>
 
-int main()
-{
+int main() {
     printf("Hello World");
     return 0;
 }
 ```
+</details>
 
 stdio.h -> standard input output header file
 std -> standard
