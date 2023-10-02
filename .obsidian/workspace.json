@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "1b18a9e2b4d1f970",
+    "type": "split",
+    "children": [
+      {
+        "id": "2714e6a29b2ccbcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dacbe5fa5d63c24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction to Programming Language/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f348fc5461bf1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ac7f1eda23392a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0648d2a045456e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ef0e5b8678e5e83",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a93d33013542ae37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5098de3c96d231e",
+    "type": "split",
+    "children": [
+      {
+        "id": "837e08b3157b47c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b3851d28e3162ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction to Programming Language/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ea93bc78587ef95b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Introduction to Programming Language/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65536b5c49ae15a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f650462c35f9b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Introduction to Programming Language/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "0dacbe5fa5d63c24",
+  "lastOpenFiles": [
+    "Introduction to Programming Language/01_Hello_World.exe",
+    "Introduction to Programming Language/output/01_Hello_World.exe",
+    "Introduction to Programming Language/output",
+    "Introduction to Programming Language/01_Hello_World.c",
+    "Math For Programming/README.md",
+    "Introduction to Programming Language/README.md",
+    "Untitled.md",
+    "Introduction to Programming Language",
+    "Untitled 1.md",
+    "I"
+  ]
+}
