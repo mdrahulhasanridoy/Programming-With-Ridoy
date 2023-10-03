@@ -142,4 +142,104 @@ Output:
 1
 ```
 
+Here are some rules to declare a variable in C programming language.
+
+- Variable name should start with a letter or underscore.
+- Variable name cannot start with a number.
+- Keywords cannot be used as variable name.
+- Variable name cannot contain special characters except underscore.
+- Variable name cannot contain white space.
+
+Example:
+ 
+<b> [ Look carefully ] </b>
+
+```c
+#include<stdio.h>
+int main()
+{
+    int radius = 10, height = 20;
+    float pi = 3.1416;
+    char name = 'A';
+    char test = 'Hello World';
+    printf("Radius = %d\n", radius);
+    printf("Height = %d\n", height);
+    printf("Pi = %f\n", pi);
+    printf("Pi = %.2f\n", pi);
+    printf("Pi = %.4f\n", pi);
+    printf("Pi = %.6f\n", pi);
+    printf("Name = %c\n", name);
+    printf("Test = %c\n", test);
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+Radius = 10
+Height = 20
+Pi = 3.141600
+Pi = 3.14
+Pi = 3.1416
+Pi = 3.141600
+Name = A
+Test = d
+```
+</details>
+
+<details>
+<summary> How to take input in C programming language? </summary>
+
+```c
+#include <stdio.h>
+int main() 
+{
+    int x;
+    float y, z;
+    scanf("%d", &x); //single input
+    scanf("%f %f", &y, &z); //multiple input
+    printf("%d", x); //single output 
+    printf("%f %f", y, z); //multiple output
+    return 0;
+}
+```
+
+scanf function is used to take input in C programming language. 
+- &x is used to take input in x variable.
+- & is called address of operator.
+- &x means address of x variable.
+- %d is used to take integer input.
+
+Problem: Your math mark is 80% and physics mark is 90%. Now you have to calculate the average of your math and physics mark. Print the average mark on the screen. Also show individual mark on the screen with percentage sign.
+
+- Method 1:
+
+```c
+#include <stdio.h>
+int main() 
+{
+    float math, physics, average;
+    scanf("%f%% %f%%", &math, &physics);
+    average = (math + physics) / 2;
+    printf("Math = %.2f%%\nPhysics = %.2f%%\nAverage = %.2f%%\n", math, physics, average);
+    return 0;
+}
+```
+
+- Method 2:
+
+```c
+#include <stdio.h>
+int main() 
+{
+    float math, physics, average;
+    char percentage = '%';
+    scanf("%f%c %f%c", &math, &percentage, &physics, &percentage);
+    average = (math + physics) / 2;
+    printf("Math = %.2f%c\nPhysics = %.2f%c\nAverage = %.2f%c\n", math, percentage, physics, percentage, average, percentage);
+    return 0;
+}
+```
+
 </details>
