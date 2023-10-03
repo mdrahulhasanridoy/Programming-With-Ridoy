@@ -47,8 +47,8 @@ io -> input output
 2. Library function
 ```
 
-| main function | printf function |
-| --- | --- |
+| main function         | printf function                     |
+| --------------------- | ----------------------------------- |
 | User defined function | Library function/ built in function |
 
 </details>
@@ -59,9 +59,42 @@ In C programming language, we can use printf function to print anything on the s
     printf("Hello World");
 ```
 
-How to comment in C programming language?
+<details>
+
+<summary>  How to comment in C programming language? </summary>
 
 ```c
     // This is a single line comment
     /* This is a multi line comment */
 ```
+
+</details>
+
+<details>
+<summary> Now we will learn about some special characters in C programming language. </summary>
+
+| Special Character | Meaning |
+| ----------------- | ------- |
+| \n                | New line|
+| \t                | Tab     |
+| \\                | Backslash |
+| \"                | Double quote |
+| \'                | Single quote |
+
+```c
+    printf("Hello World\n");
+    printf("Hello\tWorld\n");
+    printf("Hello\\World\n");
+    printf("Hello\"World\n");
+    printf("Hello\'World\n");
+```
+Output:
+```terminal
+Hello World
+Hello   World
+Hello\World
+Hello"World
+Hello'World
+```
+
+</details>
