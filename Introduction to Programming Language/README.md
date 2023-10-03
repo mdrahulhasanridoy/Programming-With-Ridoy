@@ -97,3 +97,49 @@ Hello"World
 Hello'World
 ```
 
+</details>
+
+Also we cannot print percentage sign using printf function. To print percentage sign, we have to use double percentage sign.
+
+```c
+    printf("Hello %% World");
+```
+
+<details>
+<summary>Variables and Data Types </summary>
+
+### What is variable?
+
+- Variable is a container which can store data.
+
+### What is data type?
+
+- Data type is a type of data which can be stored in a variable.
+
+Now we will learn about some data types in C programming language.
+
+| Data Type | Size (in bytes) | Format Specifier | Example |
+| --------- | --------------- | ---------------- | ------- |
+| int       | 4               | %d               | 10      |
+| float     | 4               | %f               | 10.5    |
+| char      | 1               | %c               | 'A'     |
+
+Now we will learn about bool data type. To use bool data type, we have to use stdbool.h header file.
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    bool x = true;
+    printf("%d", x);
+    return 0;
+}
+```
+
+Output:
+```terminal
+1
+```
+
+</details>
