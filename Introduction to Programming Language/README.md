@@ -1,6 +1,6 @@
 # Introduction to Programming Language
 
-<b Module 1 </b>
+<b> Module 1 </b>
 
 We will be start our programming journey with C programming language.
 
@@ -22,14 +22,14 @@ int main() {
 ```
 </details>
 
-::: RUN Windows PowerShell Terminal
+- Run Windows PowerShell Terminal
 
 ```terminal
 gcc 01_Hello_World.c -o 01_Hello_World
 ./01_Hello_World
 ```
 
-::: OUTPUT
+- Output
 
 ```terminal
 Hello World
