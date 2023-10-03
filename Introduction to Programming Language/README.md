@@ -1,5 +1,7 @@
 # Introduction to Programming Language
 
+<b Module 1 </b>
+
 We will be start our programming journey with C programming language.
 
 - In 1972, Dennis Ritchie at Bell Labs developed C programming language. 
@@ -19,6 +21,19 @@ int main() {
 }
 ```
 </details>
+
+::: RUN Windows PowerShell Terminal
+
+```terminal
+gcc 01_Hello_World.c -o 01_Hello_World
+./01_Hello_World
+```
+
+::: OUTPUT
+
+```terminal
+Hello World
+```
 
 stdio.h -> standard input output header file
 std -> standard
@@ -44,3 +59,9 @@ In C programming language, we can use printf function to print anything on the s
     printf("Hello World");
 ```
 
+How to comment in C programming language?
+
+```c
+    // This is a single line comment
+    /* This is a multi line comment */
+```
