@@ -73,13 +73,11 @@ In C programming language, we can use printf function to print anything on the s
 <details>
 <summary> Now we will learn about some special characters in C programming language. </summary>
 
-| Special Character | Meaning |
-| ----------------- | ------- |
-| \n                | New line|
-| \t                | Tab     |
-| \\                | Backslash |
-| \"                | Double quote |
-| \'                | Single quote |
+/n -> new line
+/t -> tab
+\\ -> backslash
+\" -> double quote
+\' -> single quote
 
 ```c
     printf("Hello World\n");
@@ -97,4 +95,3 @@ Hello"World
 Hello'World
 ```
 
-</details>
