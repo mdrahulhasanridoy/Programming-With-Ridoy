@@ -303,3 +303,54 @@ int main() {
 ```
 </details>
 </details>
+
+
+<details>
+<summary> <b> Module 2: Operators, Conditional Statements </b> </summary>
+
+<details>
+<summary> Operators </summary>
+
+### What is operator?
+
+- Operator is a symbol which is used to perform some operations.
+
+### Types of operators
+
+1. Arithmetic operator
+2. Relational operator
+3. Logical operator
+
+3. Assignment operator
+5. Bitwise operator
+6. Increment and decrement operator
+
+### Arithmetic operator
+
+| Operator | Description | Example |
+| -------- | ----------- | ------- |
+| +        | Addition    | 10 + 5 = 15 |
+| -        | Subtraction | 10 - 5 = 5 |
+| *        | Multiplication | 10 * 5 = 50 |
+| /        | Division | 10 / 5 = 2 |
+| %        | Modulus | 10 % 5 = 0 |
+
+
+### Relational operator
+
+| Operator | Description | Example | Explanation |
+| -------- | ----------- | ------- | ----------- |
+| ==       | Equal to    | 10 == 5 = false | 10 == 5 means 10 is equal to 5 = false |
+| !=       | Not equal to | 10 != 5 = true | 10 != 5 means 10 is not equal to 5 = true |
+| >        | Greater than | 10 > 5 = true | 10 > 5 means 10 is greater than 5 = true |
+| <        | Less than | 10 < 5 = false | 10 < 5 means 10 is less than 5 = false |
+| >=       | Greater than or equal to | 10 >= 5 = true | 10 >= 5 means 10 > 5 or 10 == 5 = true |
+| <=       | Less than or equal to | 10 <= 5 = false | 10 <= 5 means 10 < 5 or 10 == 5 = false |
+
+### Logical operator
+
+| Operator | Description | Example |
+| -------- | ----------- | ------- |
+| &&       | Logical AND | (a>b) && (a>c) |
+| \|\|     | Logical OR | (a>b) \|\| (a>c) |
+| !        | Logical NOT | !(a>b) |
