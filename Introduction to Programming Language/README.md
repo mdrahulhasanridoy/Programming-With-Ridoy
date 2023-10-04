@@ -144,13 +144,26 @@ Output:
 
 Here are some rules to declare a variable in C programming language.
 
-- Variable name should start with a letter or underscore.
-- Variable name cannot start with a number.
-- Keywords cannot be used as variable name.
-- Variable name cannot contain special characters except underscore.
-- Variable name cannot contain white space.
+1. Variable names must begin with a letter or underscore.
 
-Example:
+:white_check_mark: ridoy
+:white_check_mark: _ridoy
+:x: 123ridoy
+:x: @ridoy
+
+2. Variable name must contain letter, digits or underscore.
+
+:white_check_mark: ridoy123
+:white_check_mark: ridoy_123
+:x: ridoy 123
+:x: ridoy,programmer
+
+3. Keywords cannot be used as variable name.
+
+:x: int
+:x: float
+:x: char
+
  
 <b> [ Look carefully ] </b>
 
@@ -242,4 +255,49 @@ int main()
 }
 ```
 
+</details>
+
+<details>
+<summary> Data Types Limitations in C programming language </summary>
+
+1 gb = 1024 mb
+1 mb = 1024 kb
+1 kb = 1024 byte
+1 byte = 8 bits
+1 bit = 0 or 1
+
+| Data Type | Size (in bytes) | Format Specifier | Data Limitation |
+| --------- | --------------- | ---------------- | --------------- |
+| int       | 4               | %d               | -2147483648 to 2147483647 |
+| float     | 4               | %f               | 6 decimal places |
+| char      | 1               | %c               | 1 character |
+| bool      | 1               | %d               | 0 or 1 |
+| long long | 8               | %lld             | -9223372036854775808 to 9223372036854775807 |
+| double    | 8               | %lf              | 15 decimal places |
+
+```math
+2^n - 1
+```
+We can use this formula to calculate the data limitation of any data type.
+
+int 4 byte = 32 bits
+
+```math
+2^32 - 1 = 4294967295
+4294967295 / 2 = 2147483647
+```
+
+- Others way to find the data limitation without using formula.
+
+```c
+#include <stdio.h>
+#include <limits.h>
+#include <float.h>
+
+int main() {
+    printf("int = %d to %d\n", INT_MIN, INT_MAX);
+    printf("float = %f to %f\n", FLT_MIN, FLT_MAX);
+    return 0;
+}
+```
 </details>
