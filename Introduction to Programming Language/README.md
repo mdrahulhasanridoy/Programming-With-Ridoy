@@ -321,7 +321,7 @@ int main() {
 2. Relational operator
 3. Logical operator
 
-3. Assignment operator
+4. Assignment operator
 5. Bitwise operator
 6. Increment and decrement operator
 
