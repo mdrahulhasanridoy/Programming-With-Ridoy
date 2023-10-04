@@ -1,7 +1,7 @@
 # Introduction to Programming Language
 
 <details>
-<summary> <b> Module 1 </b> </summary>
+<summary> <b> Module 1: Basic Syntax, Variable and Data Types </b> </summary>
 
 We will be start our programming journey with C programming language.
 
