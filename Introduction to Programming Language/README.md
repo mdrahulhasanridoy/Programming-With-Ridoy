@@ -478,42 +478,6 @@ For loop works in 3 steps.
 | -------- | ----------- | ---------- | ----------- | ---------- | ---------- |
 | 1️⃣ Initialization: int i = 1<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣Print: Print 1 | 1️⃣ Increment: i = i + 1 (i = 1 + 1 = 2)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: Print 2 | 1️⃣ Increment: i = i + 1 (i = 2 + 1 = 3)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: Print 3 | 1️⃣ Increment: i = i + 1 (i = 3 + 1 = 4)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: Print 4 | 1️⃣ Increment: i = i + 1 (i = 4 + 1 = 5)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: Print 5 | 1️⃣ Increment: i = i + 1 (i = 5 + 1 = 6)<br>2️⃣ Condition Check: i <= 5 (false)<br>3️⃣ Exit from the loop |
 
-Initialization: int i = 1
-Condition Check: i <= 5 (true)
-Print: Print 1
-
-Second loop:
-
-Increment: i = i + 1 (i = 1 + 1 = 2)
-Condition Check: i <= 5 (true)
-Print: Print 2
-
-Third loop:
-
-Increment: i = i + 1 (i = 2 + 1 = 3)
-Condition Check: i <= 5 (true)
-Print: Print 3
-
-Fourth loop:
-
-Increment: i = i + 1 (i = 3 + 1 = 4)
-Condition Check: i <= 5 (true)
-Print: Print 4
-
-Fifth loop:
-
-Increment: i = i + 1 (i = 4 + 1 = 5)
-Condition Check: i <= 5 (true)
-Print: Print 5
-
-Sixth loop:
-
-Increment: i = i + 1 (i = 5 + 1 = 6)
-Condition Check: i <= 5 (false)
-Exit from the loop
-
-Output:
-
 ```terminal
 Print 1
 Print 2
