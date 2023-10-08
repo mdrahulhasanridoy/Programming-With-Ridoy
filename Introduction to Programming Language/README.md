@@ -529,3 +529,90 @@ for(int i = 1; i <= 10; i = i + 1) {
 |First loop| Second loop | Third loop | Fourth loop | Fifth loop | Sixth loop | Seventh loop | Eighth loop | Ninth loop | Tenth loop |
 | -------- | ----------- | ---------- | ----------- | ---------- | ---------- | ------------ | ----------- | ---------- | ---------- |
 | 1️⃣ Initialization: int i=1<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(false)<br>4️⃣ Print: Print 1 - Odd Number | 1️⃣ Increment: i=i+1 (i=1+1= 2)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(true)<br>4️⃣ Print: Print 2 - Even Number | 1️⃣ Increment: i=i+1 (i=2+1= 3)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(false)<br>4️⃣ Print: Print 3 - Odd Number | 1️⃣ Increment: i=i+1 (i=3+1= 4)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(true)<br>4️⃣ Print: Print 4 - Even Number | 1️⃣ Increment: i=i+1 (i=4+1= 5)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(false)<br>4️⃣ Print: Print 5 - Odd Number | 1️⃣ Increment: i=i+1 (i=5+1= 6)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(true)<br>4️⃣ Print: Print 6 - Even Number | 1️⃣ Increment: i=i+1 (i=6+1= 7)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(false)<br>4️⃣ Print: Print 7 - Odd Number | 1️⃣ Increment: i=i+1 (i=7+1= 8)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(true)<br>4️⃣ Print: Print 8 - Even Number | 1️⃣ Increment: i=i+1 (i=8+1= 9)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(false)<br>4️⃣ Print: Print 9 - Odd Number | 1️⃣ Increment: i=i+1 (i=9+1= 10)<br>2️⃣ Condition Check: i<=10(true)<br>3️⃣ Condition Check: i%2==0(true)<br>4️⃣ Print: Print 10 - Even Number |
+
+</details>
+
+<details>
+<summary> Break Statement </summary>
+
+- Break statement is used to exit from the loop.
+
+Examples: ( Check the difference between these two codes )
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 1; i <= 5; i = i + 1) {
+        if(i == 3) {
+            break;
+        }
+        printf("%d\n", i);
+    }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+1
+2
+```
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 1; i <= 5; i = i + 1) {
+        printf("%d\n", i);
+        if(i == 3) {
+            break;
+        }
+    }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+1
+2
+3
+```
+</details>
+
+<details>
+<summary> Continue Statement </summary>
+
+- Continue statement is used to skip the current iteration.
+
+Example:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 1; i <= 5; i = i + 1) {
+        if(i == 3) {
+            continue;
+        }
+        printf("%d\n", i);
+    }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+1
+2
+4
+5
+```
+</details>
