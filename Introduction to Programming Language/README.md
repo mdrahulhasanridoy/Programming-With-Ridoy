@@ -415,3 +415,133 @@ else {
 ```
 </details>
 </details>
+
+
+<details>
+<summary> <b> Module 3: Loop </b> </summary>
+
+<details>
+<summary> What is loop? </summary>
+
+- Loop is a statement which is used to execute a block of code repeatedly.
+
+### Types of loop
+
+1. For loop
+2. While loop
+3. Do while loop
+
+</details>
+
+<details>
+<summary> For loop </summary>
+
+- For loop is a loop which is used to execute a block of code repeatedly based on some conditions.
+
+- For loop Syntax:
+
+```c
+for(initialization; condition; increment/decrement) {
+    // code
+}
+```
+
+Example:
+
+```c
+#include <stdio.h>
+int main()
+{
+    for(int i = 1; i <= 10; i = i + 1) {
+        printf("Print %d\n", i);
+    }
+    return 0;
+}
+
+```
+
+Now we will be explain this code step by step.
+
+```c
+for(int i = 1; i <= 5; i = i + 1) {
+    printf("Print %d\n", i);
+}
+```
+
+| for(int i = 1; | i <= 5;  | i = i + 1)  |
+| -------------- | --------  | ---------- |
+| initialization | condition | increment  |
+
+For loop works in 3 steps.
+
+First loop:
+
+Initialization: int i = 1
+Condition Check: i <= 5 (true)
+Print: Print 1
+
+Second loop:
+
+Increment: i = i + 1 (i = 1 + 1 = 2)
+Condition Check: i <= 5 (true)
+Print: Print 2
+
+Third loop:
+
+Increment: i = i + 1 (i = 2 + 1 = 3)
+Condition Check: i <= 5 (true)
+Print: Print 3
+
+Fourth loop:
+
+Increment: i = i + 1 (i = 3 + 1 = 4)
+Condition Check: i <= 5 (true)
+Print: Print 4
+
+Fifth loop:
+
+Increment: i = i + 1 (i = 4 + 1 = 5)
+Condition Check: i <= 5 (true)
+Print: Print 5
+
+Sixth loop:
+
+Increment: i = i + 1 (i = 5 + 1 = 6)
+Condition Check: i <= 5 (false)
+Exit from the loop
+
+Output:
+
+```terminal
+Print 1
+Print 2
+Print 3
+Print 4
+Print 5
+```
+</details>
+
+<details>
+<summary> Loop With Condition </summary>
+
+### Write a C program to print all the even and odd numbers numbers from 1 to 10.
+
+| Input | Output |
+| ----- | ------ |
+|       | 1 - Odd Number<br>2 - Even Number<br>3 - Odd Number<br>4 - Even Number<br>5 - Odd Number<br>6 - Even Number<br>7 - Odd Number<br>8 - Even Number<br>9 - Odd Number<br>10 - Even Number |
+
+```c
+#include <stdio.h>
+int main()
+{
+    for(int i = 1; i <= 10; i = i + 1) {
+        if(i % 2 == 0) {
+            printf("%d - Even Number\n", i);
+        }
+        else {
+            printf("%d - Odd Number\n", i);
+        }
+    }
+    return 0;
+}
+```
