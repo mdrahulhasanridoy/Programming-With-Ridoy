@@ -354,3 +354,64 @@ int main() {
 | &&       | Logical AND | (a>b) && (a>c) |
 | \|\|     | Logical OR | (a>b) \|\| (a>c) |
 | !        | Logical NOT | !(a>b) |
+
+</details>
+
+<details>
+<summary> Conditional Statements </summary>
+
+### What is conditional statement?
+
+- Conditional statement is a statement which is used to perform some operations based on some conditions.
+
+- If Else Statement Syntax:
+
+```c
+if(condition) {
+    // code
+}
+else {
+    // code
+}
+```
+
+If Else if Statement Syntax:
+
+```c
+if(condition) {
+    // code
+}
+else if(condition) {
+    // code
+}
+else {
+    // code
+}
+```
+</details>
+
+<details>
+<summary> Nested If Else Statement </summary>
+
+- Nested If Else means If Else inside If Else.
+
+```c
+if(condition) {
+    if(condition) {
+        // code
+    }
+    else {
+        // code
+    }
+}
+else {
+    if(condition) {
+        // code
+    }
+    else {
+        // code
+    }
+}
+
+</details>
+</details>
