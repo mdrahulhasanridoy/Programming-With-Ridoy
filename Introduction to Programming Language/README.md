@@ -663,3 +663,49 @@ Output:
 |First loop| Second loop | Third loop | Fourth loop | Fifth loop | Sixth loop |
 | -------- | ----------- | ---------- | ----------- | ---------- | ---------- |
 | 1️⃣ Condition Check: i <= 5 (true)<br>2️⃣ Print: 1 | 1️⃣ Increment: i = i + 1 (i = 1 + 1 = 2)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: 2 | 1️⃣ Increment: i = i + 1 (i = 2 + 1 = 3)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: 3 | 1️⃣ Increment: i = i + 1 (i = 3 + 1 = 4)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: 4 | 1️⃣ Increment: i = i + 1 (i = 4 + 1 = 5)<br>2️⃣ Condition Check: i <= 5 (true)<br>3️⃣ Print: 5 | 1️⃣ Increment: i = i + 1 (i = 5 + 1 = 6)<br>2️⃣ Condition Check: i <= 5 (false)<br>3️⃣ Exit from the loop |
+
+</details>
+
+<details>
+<summary> Do while loop </summary>
+
+- Do while loop is a loop which is used to execute a block of code repeatedly based on some conditions.
+
+- Do while loop Syntax:
+
+```c
+do {
+    //code
+} while(condition);
+```
+
+Example:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+    do {
+        printf("%d\n", i);
+        i = i + 1;
+    } while(i <= 5);
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+1
+2
+3
+4
+5
+```
+| First loop | Second loop | Third loop | Fourth loop | Fifth loop | Sixth loop |
+| ---------- | ----------- | ---------- | ----------- | ---------- | ---------- |
+| 1️⃣ Print: 1<br>2️⃣ Increment: i = i + 1 (i = 1 + 1 = 2)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 2<br>2️⃣ Increment: i = i + 1 (i = 2 + 1 = 3)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 3<br>2️⃣ Increment: i = i + 1 (i = 3 + 1 = 4)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 4<br>2️⃣ Increment: i = i + 1 (i = 4 + 1 = 5)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 5<br>2️⃣ Increment: i = i + 1 (i = 5 + 1 = 6)<br>3️⃣ Condition Check: i <= 5 (false) | 1️⃣ Exit from the loop |
+
+</details>
