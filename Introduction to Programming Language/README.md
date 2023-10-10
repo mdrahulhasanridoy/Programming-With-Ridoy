@@ -709,3 +709,68 @@ Output:
 | 1️⃣ Print: 1<br>2️⃣ Increment: i = i + 1 (i = 1 + 1 = 2)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 2<br>2️⃣ Increment: i = i + 1 (i = 2 + 1 = 3)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 3<br>2️⃣ Increment: i = i + 1 (i = 3 + 1 = 4)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 4<br>2️⃣ Increment: i = i + 1 (i = 4 + 1 = 5)<br>3️⃣ Condition Check: i <= 5 (true) | 1️⃣ Print: 5<br>2️⃣ Increment: i = i + 1 (i = 5 + 1 = 6)<br>3️⃣ Condition Check: i <= 5 (false) | 1️⃣ Exit from the loop |
 
 </details>
+</details>
+
+<details>
+<summary> <b> Module 3.5: Week 01 Practice Day 01 </b> </summary>
+
+<details>
+<summary> I Love Practice </summary>
+
+I know that you're loving practice days! So this task is for you. You need to print "<b>I Love Practice</b>" without the quotation marks. I know that you can do it!
+
+<b> Input Format </b>
+
+- There is no input in this problem
+
+<b> Output Format </b>
+
+- Output "I Love Practice"
+
+Sample Output 0
+
+```terminal
+I Love Practice
+```
+</details>
+
+<details>
+<summary> Sum of Two Numbers </summary>
+
+Take two integers <b>A</b> and <b>B</b> as input and output their summation.
+
+<b>Input Format</b>
+
+- You will be given A and B separated by a space.
+
+<b> Constraints </b>
+
+1. -10^9 <= A,B <= 10^9
+
+<b>Output Format</b>
+
+- Output their summation
+
+<b>Sample Input 0</b>
+
+```terminal
+2 3
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+5
+```
+
+<b>Sample Input 1</b>
+
+```terminal
+-10 5
+```
+
+<b>Sample Output 1</b>
+
+```terminal
+-5
+```
