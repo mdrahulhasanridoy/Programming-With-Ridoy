@@ -1107,7 +1107,7 @@ Alisa will buy new shoes
 </details>
 
 <details>
-<summary> <b> Module 5: Conditional Statements Recap </b> </summary>
+<summary> Module 5: Conditional Statements Recap </summary>
 
 - Practice Problems
 
