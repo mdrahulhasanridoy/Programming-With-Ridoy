@@ -774,3 +774,136 @@ Take two integers <b>A</b> and <b>B</b> as input and output their summation.
 ```terminal
 -5
 ```
+</details>
+
+<details>
+<summary> N Times </summary>
+
+I know and you also know that you love practice day so much. So this task is for you. You will be given a positive integer <b>N</b>, you need to print "<b>I Love Practice</b>" N times.
+
+Here positive integer means those integers that are greater than 0.
+
+<b>Input Format</b>
+
+- You will be given a positive integer <b>N</b>.
+
+<b>Constraints</b>
+
+- 1 <= N <= 1000
+
+<b>Output Format</b>
+
+- Output "I Love Practice" N times. Don't forget to put a new line after every line.
+
+Sample Input 0
+
+```terminal
+5
+```
+
+Sample Output 0
+
+```terminal
+I Love Practice
+I Love Practice
+I Love Practice
+I Love Practice
+I Love Practice
+```
+</details>
+
+<details>
+<summary> Variable </summary>
+
+You've learned about variables, right? Now its time to practice them. You need to take an integer A, a very big integer B, a floating value C and a character D as input and output them serially.
+
+<b>Input Format</b>
+
+- First line will contain A
+- Second line will contain B
+- Third line will contain C
+- Fourth line will contain D
+
+<b>Constraints</b>
+
+1. -10^9 <= A <= 10^9
+2. -10^18 <= B <= 10^18
+3. -10^9 <= C <= 10^9
+
+<b>Output Format</b>
+
+- Output them serially and put a new line after each value. Output the floating value 2 points after decimal.
+
+<b>Sample Input 0</b>
+    
+```terminal
+100
+1234567891234567
+23.5675
+A
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+100
+1234567891234567
+23.57
+A
+```
+
+<detais>
+<summary> Divisible By 5 or Not </summary>
+
+You will be given a positive integer <b>N</b>, you need to print from <b>1</b> to <b>N</b> and besides the value, print <b>Yes</b> or <b>No</b>. Print <b>Yes</b> if the value is divisible by 5 and print <b>No</b> otherwise.
+
+<b>Input Format</b>
+
+- Input will contain a positive integer N.
+
+<b>Constraints</b>
+
+1. 1 <= N <= 1000
+
+<b>Output Format</b>
+
+- Output as mentioned in the question. See the sample input output for more clarifications. Put a new line after every line.
+
+<b>Sample Input 0</b>
+
+```terminal
+10
+```
+<b> Sample Output 0 </b>
+
+```terminal
+1 No
+2 No
+3 No
+4 No
+5 Yes
+6 No
+7 No
+8 No
+9 No
+10 Yes
+```
+
+<b>Sample Input 1</b>
+
+```terminal
+5
+```
+
+<b>Sample Output 1</b>
+
+```terminal
+1 No
+2 No
+3 No
+4 No
+5 Yes
+```
+</details>
+</details>
+
