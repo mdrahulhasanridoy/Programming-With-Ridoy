@@ -908,7 +908,7 @@ You will be given a positive integer <b>N</b>, you need to print from <b>1</b> t
 </details>
 
 <details>
-<summary> <> Module 4: Assignment 01 </summary>
+<summary> Module 4: Assignment 01 </summary>
 
 <details>
 <summary> Problem 1: Print It </summary>
@@ -943,7 +943,7 @@ I want to give my 100% dedication to learn!    I will succeed one day.
 </details>
 
 <details>
-<s> Problem 2: Multiply </summary>
+<summary> Problem 2: Multiply </summary>
 
 You will be given two integers <b>A</b> and <b>B</b>. You need to give output their multiplication.
 
@@ -1110,7 +1110,7 @@ Alisa will buy new shoes
 <details>
 <summary> Module 5: Conditional Statements Recap </summary> 
 
-- Practice Problems
+- Practice Problems 
 
 1. [I. Welcome for you with Conditions ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I) 
 
@@ -1120,6 +1120,8 @@ Alisa will buy new shoes
 
 4. [P. First digit !](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P) 
 
-5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M) 6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
+5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M) 
+
+6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
 
 </details>
