@@ -907,3 +907,214 @@ You will be given a positive integer <b>N</b>, you need to print from <b>1</b> t
 </details>
 </details>
 
+<details>
+<summar> <> Module 4: Assignment 01 </summary>
+
+<details>
+<summary> Problem 1: Print It </summary>
+
+Welcome to the "Panta Vat" assignment. In this task you just need to print the following lines as it is.
+
+```terminal
+Hello, world! I am learning C programming language. ^_^
+
+Programming is fun and challenging. /\/\/\
+
+I want to give my 100% dedication to learn!	I will succeed one day.
+```
+<b>Note</b>: Here you will see 4 spaces in the last line which is a tab, you need to print a tab there.
+
+<b>Input Format</b>
+
+- There is no input
+
+<b>Output Format</b>
+
+- Output the lines.
+
+<b>Sample Output 0</b>
+
+```terminal
+Hello, world! I am learning C programming language. ^_^
+Programming is fun and challenging. /\/\/\
+I want to give my 100% dedication to learn!    I will succeed one day.
+```
+
+</details>
+
+<details>
+<s> Problem 2: Multiply </summary>
+
+You will be given two integers <b>A</b> and <b>B</b>. You need to give output their multiplication.
+
+<b>Input Format</b>
+
+- Input will contain <b>A</b> and <b>B</b>
+
+<b>Constraints</b>
+
+- -10^9 <= A,B <= 10^9
+
+<b>Output Format</b>
+
+- Output their multiplication
+
+<b>Sample Input 0</b>
+
+```terminal
+10 50
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+500
+```
+</details>
+
+<details>
+<summary> Problem 3: Divisible</summary>
+
+You will be given a non-negative integer <b>N</b>, you need to tell if this number is divisible by 3 or not. If it is divisible by 3 output <b>"YES"</b> otherwise output <b>"NO"</b> without the quotation mark.
+
+<b>Input Format</b>
+
+- Input will contain <b>N</b>
+
+<b>Constraints</b>
+
+- 0 <= N <= 10^9
+
+<b>Output Format</b>
+
+Output "<b>YES</b>" or "<b>NO</b>" without the quotation mark according to the question.
+
+<b>Sample Input 0</b>
+
+```terminal
+33
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+YES
+```
+
+</details>
+
+<details>
+<summary> Problem 4: Divisible By Two Numbers </summary>
+
+You will be given a non-negative integer N, you need to print all numbers from 1 to N that are divisible by both 3 and 7.
+
+<b> Input Format </b>
+
+- Input will contain N.
+
+<b>Constraints</b>
+
+- 21 <= N <= 10000
+
+<b>Output Format</b>
+
+- Output all numbers from 1 to N that are divisible by both 3 and 7. Don't forget to print a new line after every number.
+
+<b>Sample Input 0</b>
+
+```terminal
+30
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+21
+```
+
+</details>
+
+<details>
+<summary> Problem 5: Shopping </summary>
+
+<b>Alisa</b> and you have gone out for shopping, and Alisa wants to buy a new pair of <b>shoes</b> for Eid. She has enough money to buy anything. However, Alisa will only buy shoes if you also buy a pair. And you will buy a pair of shoes if you can buy a Punjabi. That means, everything is depending on the Punjabi.
+
+You have decided that you will buy a <b>Punjabi</b> only if you have more than <b>1000</b> Taka. After purchasing the Punjabi the amount of your money will be reduced by 1000. Suppose you have 1600 taka with you, after buying the Punjabi you will have 600 taka left with you.
+
+Then you will only buy shoes if you have <b>500</b> Taka or more left with you. That means, if you can't buy your Punjabi you can't buy shoes.
+
+Now if I inform you the amount <b>N</b> Taka that your mother will give you, can you tell me what will happen next?
+
+- If you buy a punjabi print "<b>I will buy Punjabi</b>".
+
+- If you buy a pair of shoes print "<b>I will buy new shoes</b>"
+
+- If Alisa buy a pair of shoes print "<b>Alisa will buy new shoes</b>"
+
+- If no one can buy anything print "<b>Bad luck!</b>"
+
+<b>Note</b>: Don't forget to print new line after every line you print.
+
+<b>Input Format</b>
+
+- Input will contain a non-negative integer N.
+
+<b>Constraints</b>
+
+- 1 <= N <= 2^31
+
+<b>Output Format</b>
+
+- Output the events that will happen as asked in the question.
+
+<b>Sample Input 0</b>
+```terminal
+1000
+```
+
+<b>Sample Output 0</b>
+
+```terminal
+Bad luck!
+```
+
+<b>Sample Input 1</b>
+
+```terminal
+1450
+```
+
+<b>Sample Output 1</b>
+
+```terminal
+I will buy Punjabi
+```
+
+<b>Sample Input 2</b>
+
+```terminal
+1500
+```
+
+<b>Sample Output 2</b>
+
+```terminal
+I will buy Punjabi
+I will buy new shoes
+Alisa will buy new shoes
+```
+</details>
+</details>
+
+<details>
+<summary> <b> Module 5: Conditional Statements Recap </b> </summary>
+
+- Practice Problems
+
+1. [I. Welcome for you with Conditions ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I)
+
+2. [J. Multiples](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J)
+3. [N. Char](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N)
+4. [P. First digit !](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P)
+5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M)
+6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
