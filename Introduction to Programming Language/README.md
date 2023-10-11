@@ -1103,20 +1103,7 @@ I will buy Punjabi
 I will buy new shoes
 Alisa will buy new shoes
 ```
-</details>
-</details>
-
-<details>
-<summary> Module 5: Conditional Statements Recap </summary>
-
-- Practice Problems
-
-1. [I. Welcome for you with Conditions ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I)
-
-2. [J. Multiples](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J)
-3. [N. Char](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N)
-4. [P. First digit !](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P)
-5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M)
-6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
 
 </details>
+</details>
+
