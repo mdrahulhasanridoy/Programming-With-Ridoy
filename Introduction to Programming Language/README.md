@@ -1118,3 +1118,5 @@ Alisa will buy new shoes
 4. [P. First digit !](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P)
 5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M)
 6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
+
+</details>
