@@ -1110,7 +1110,8 @@ Alisa will buy new shoes
 <details>
 <summary> Module 5: Conditional Statements Recap </summary> 
 
-- Practice Problems 
+<details>
+<summary> Practice Problems</summary> 
 
 1. [I. Welcome for you with Conditions ](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I) 
 
