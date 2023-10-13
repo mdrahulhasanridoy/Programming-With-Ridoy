@@ -1126,3 +1126,32 @@ Alisa will buy new shoes
 6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
 
 </details>
+</details>
+
+<details>
+<summary> Module 6: Loop Recap & Nested Loop </summary>
+
+<details>
+<summary> Practice Problems </summary>
+
+1. [B. Even Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/B)
+2. [C. Even, Odd, Positive and Negative](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C)
+3. [D. Fixed Password (EOF)](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/D) 
+4. [E. Max](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E)
+5. [F. Multiplication table](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/F)
+6. [Q. Digits](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Q)
+
+</details>
+
+<details>
+<summary> Increment Decrement Operator </summary>
+
+i++     post increment
+
+++i     pre increment
+
+i--     post decrement
+
+--i     pre decrement
+
+</details>
