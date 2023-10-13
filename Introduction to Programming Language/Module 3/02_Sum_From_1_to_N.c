@@ -2,17 +2,18 @@
 int main()
 {
     long long int sum = 0;
-    int i, n;
+    int n;
     scanf("%d", &n);
 
-    for(i=1; i<=n; i++)
+    for(int i=1; i<=n; i++)
     {
         sum+=i;
     }
-    printf("%lld",sum);
+        printf("%lld", sum);
     return 0;
 }
 
+        
 /*
 Explain this code step by step.
 

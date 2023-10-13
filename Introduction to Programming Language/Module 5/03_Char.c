@@ -4,8 +4,8 @@ int main()
     char x;
     scanf("%c",&x);
     if(x>='a' && x<='z'){
-        int alphtabet=x-32;
-                printf("%c",alphtabet);
+        int alphabet=x-32;
+                printf("%c",alphabet);
     }
     else{
         int small_letter=x+32;

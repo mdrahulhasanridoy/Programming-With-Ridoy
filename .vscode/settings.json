@@ -1,0 +1,5 @@
+{
+    "cmake.configureOnOpen": false,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false
+}
