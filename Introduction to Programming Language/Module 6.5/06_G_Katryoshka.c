@@ -18,7 +18,6 @@ int main()
     {
         minimum_katryoshka=body;
     }
-
     long long int remaining_eyes=(eyes-minimum_katryoshka)/2;
     long long int remaining_mouth=mouth-minimum_katryoshka;
     long long int remaining_body=body-minimum_katryoshka;
