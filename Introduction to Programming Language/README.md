@@ -1154,4 +1154,210 @@ i--     post decrement
 
 --i     pre decrement
 
+
+- See difference between post increment and pre increment using for loop
+    
+```c
+#include<stdio.h>
+int main()
+{
+    int i=10,j=10,k=10,l=10;
+    int w=i++;   //w=10,i=11 because first i is assigned to w then i is incremented
+    int x=++j;   //x=11,j=11 because first j is incremented then assigned to x
+    int y=k--;   //y=10,k=9 because first k is assigned to y then k is decremented
+    int z=--l;   //z=9,l=9 because first l is decremented then assigned to z
+    printf("w-%d\ni-%d\nx-%d\nj-%d\ny-%d\nk-%d\nz-%d\nl-%d\n",w,i,x,j,y,k,z,l);
+    return 0;
+}
+```
 </details>
+
+<details>
+<summary> How to take n number of inputs using loop </summary>
+
+```c
+include<stdio.h>
+int main()
+{
+    //first we will take the value of n for how many times we will take input
+    int n;
+    scanf("%d",&n);
+
+    //we will use a temporary variable to take input
+    int temp;
+    //suppose we will take 5 inputs and count the position of the input
+    //so we will use a variable called count
+    int count=1;
+    //now we will take n number of inputs for that we will use a loop
+    for(int i=0;i<=n;i++)
+    //inside the loop we will take input and store it in temp variable
+       {
+        scanf("%d",&temp);
+        //now we will print the input with its position
+        printf("The %dth number is %d\n",count,temp);
+        //now we will increment the count variable
+        count++;
+        }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+5  
+1 2 4 -3 4
+The 1th number is 1
+The 2th number is 2
+The 3th number is 4
+The 4th number is -3
+The 5th number is 4
+```
+
+</details>
+
+<details>
+<summary> EOF : End of File </summary>
+
+- The "EOF" (End of File) is a special character that indicates the end of a file. It is used by programs to determine when they have reached the end of a file while reading or writing data. In the context of the excerpt from the README.md file, the "EOF" details indicate the end of the file or the end of the code block.
+
+Here is an example of how to use EOF in C programming with explanation every line of code.
+
+```c
+#include <stdio.h>
+int main()
+{
+    //first we will declare a variable to take input
+    int x;
+
+    //now we will take input until we get EOF (End of File)
+    while(scanf("%d",&x)!=EOF)
+    {
+        //Here, we will try to match the input with 42. Because we know that the input will be 42. After that we will print "Correct" and break the loop. If we don't get 42 then we will print "Wrong" and continue the loop. 
+        if(x==42)
+        {
+            printf("Correct\n");
+            break;
+        }
+        else
+        {
+            printf("Wrong\n");
+        }
+    }
+    
+}
+```
+</details>
+
+<details>
+<summary> INT_MAX and INT_MIN </summary>
+
+- INT_MAX and INT_MIN are macros that gives the maximum and minimum value of int data type respectively. These macros are defined in the <limits.h> header file.
+
+```c
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+    printf("The maximum value of int data type is %d\n", INT_MAX);
+    printf("The minimum value of int data type is %d\n", INT_MIN);
+    return 0;
+}
+```
+Output:
+
+```terminal
+The maximum value of int data type is 2147483647
+The minimum value of int data type is -2147483648
+```
+</details>
+
+<detais>
+<summ> Nested For Loop Implementation </summary>
+
+- Nested for loop is a loop inside a loop. It is used to execute a block of code repeatedly based on some conditions.
+
+- Nested for loop Syntax:
+
+```c
+for(initialization; condition; increment/decrement) {
+    for(initialization; condition; increment/decrement) {
+        // code
+    }
+}
+```
+
+Let's try to understand this with an example.
+
+Suppose we want to print 1 to 10 numbers with for loop.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 1; i <= 10; i = i + 1) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
+```
+Output:
+
+| 1 |
+|---|
+| 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+
+Now, you want to print 1 to 10 numbers 5 times. So, you need to use nested for loop.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 1; i <= 5; i = i + 1) {
+        for(int j = 1; j <= 10; j = j + 1) {
+            printf("%d\n", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+Output:
+
+| 1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+|---|
+| 1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+| 1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+| 1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+| 1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 |
+
+</details>
+</details>
+
+<details>
+<summary> Module 6.5: Week 02 Practice Day 02 </summary>
+
+<details>
+<summar> Practice Problems </summary>
+
+1. [C. Next Alphabet](https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/C)
+
+2. [D. Ali Baba and Puzzles](https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/D)
+
+3. [K. Divisors](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K)
+
+4. [A. Timon and Pumbaa](https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/A)
+
+5. [I. Lucky Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/I)
+
+6. [G. Katryoshka](https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/G)
+
+</details>
+
+<details>
+<summary> Ascending order/Descending order </summary>
+
+- Ascending order means smallest to largest. Descending order means largest to smallest.
