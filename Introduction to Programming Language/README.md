@@ -1341,7 +1341,7 @@ Output:
 <summary> Module 6.5: Week 02 Practice Day 02 </summary>
 
 <details>
-<summar> Practice Problems </summary>
+<summary> Practice Problems </summary>
 
 1. [C. Next Alphabet](https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/C)
 
@@ -1361,3 +1361,54 @@ Output:
 <summary> Ascending order/Descending order </summary>
 
 - Ascending order means smallest to largest. Descending order means largest to smallest.
+</details>
+</details>
+
+<details>
+<summary> Module 7: Introduction to Array </summary>
+
+<details>
+<summar> What is Array? </summary>
+
+- An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base v
+alue, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
+
+Array syntax:
+
+```c
+data_type array_name[array_size];
+```
+
+Example with different data types:
+
+```c
+int arr[5]; // integer array; it means you can store 5 integer values in this array.
+float arr[5]; // float array; it means you can store 5 float values in this array.
+char arr[5]; // character array; it means you can store 5 character values in this array.
+```
+</details>
+
+<detais>
+<summary> Accessing An Array </summary>
+
+```c
+int arr[5];
+```
+
+
+|   | int | int | int | int | int |
+| index | 0 | 1 | 2 | 3 | 4 |
+| variable | arr[0] | arr[1] | arr[2] | arr[3] | arr[4] |
+| memory address example | 1000 | 1004 | 1008 | 1012 | 1016 |
+
+- arr[0] = 1000 + 0 = 1000
+- arr[1] = 1000 + 4 = 1004
+- arr[2] = 1000 + (4 * 2) = 1008
+- arr[3] = 1000 + (4 * 3) = 1012
+- arr[4] = 1000 + (4 * 4) = 1016
+
+```math
+arr[i] = base_address + (size_of_data_type * i)
+```
+
+</details>
