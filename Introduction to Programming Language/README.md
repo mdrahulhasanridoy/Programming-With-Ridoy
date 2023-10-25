@@ -277,7 +277,7 @@ int main()
 | double    | 8               | %lf              | 15 decimal places |
 
 ```math
-2^n - 1
+ ^n - 1
 ```
 We can use this formula to calculate the data limitation of any data type.
 
@@ -1147,6 +1147,8 @@ Alisa will buy new shoes
 5. [M. Capital or Small or Digit](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M) 
 
 6. [K. Max and Min](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K)
+
+7. [V. Comparison](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V)
 
 </details>
 </details>
