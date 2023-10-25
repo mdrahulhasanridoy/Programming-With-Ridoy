@@ -284,9 +284,10 @@ We can use this formula to calculate the data limitation of any data type.
 int 4 byte = 32 bits
 
 ```math
-(2^32) - 1 = 4294967295
-
-4294967295 / 2 = 2147483647
+\begin{align*}
+(2^32) - 1 = 4294967295 \\
+4294967295 / 2 = 2147483647 \\
+\end{align*}
 ```
 
 - Others way to find the data limitation without using formula.
