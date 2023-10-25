@@ -905,6 +905,27 @@ You will be given a positive integer <b>N</b>, you need to print from <b>1</b> t
 5 Yes
 ```
 </details>
+
+<detais>
+<summary> Input Output Stream & Buffer </summary>
+
+- Input stream is a stream which is used to take input from the user. Also known as standard input stream.
+
+Here is the syntax of input stream:
+
+```c
+scanf("%d", &x);
+```
+
+- Output stream is a stream which is used to print output on the screen. Also known as standard output stream.
+
+Here is the syntax of output stream:
+
+```c
+printf("%d", x);
+```
+
+- Buffer is a temporary storage area which is used to store data temporarily.
 </details>
 
 <details>
@@ -1412,3 +1433,66 @@ arr[i] = base_address + (size_of_data_type * i)
 ```
 
 </details>
+
+<details>
+<summary> Array Input and Output </summary>
+
+- Array Input:
+
+```c
+#include <stdio.h>
+int ar[5]; //size of the array is 5
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        scanf("%d",&ar[i]);
+    }
+    return 0;
+}
+```
+| 10 | 20 | 30 | 40 | 50 |
+|----|----|----|----|----|
+| ar[0] | ar[1] | ar[2] | ar[3] | ar[4] |
+
+- Array Output:
+
+| 10 | 20 | 30 | 40 | 50 |
+|----|----|----|----|----|
+| ar[0] | ar[1] | ar[2] | ar[3] | ar[4] |
+
+```c
+#include <stdio.h>
+int ar[5]; //size of the array is 5
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        printf("%d\n",ar[i]);
+    }
+    return 0;
+}
+```
+</details>
+
+- Now we will see how to work with array.
+
+```c
+#include <stdio.h>
+int main()
+{
+    int arr[3];
+    //arr[0], arr[1], arr[2]
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+
+    printf("%d %d %d\n", arr[0], arr[1], arr[2]);
+    return 0;
+}
+
+Output:
+```terminal
+
+10 20 30
+```
