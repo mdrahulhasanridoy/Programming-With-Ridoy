@@ -1150,6 +1150,10 @@ Alisa will buy new shoes
 
 7. [V. Comparison](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V)
 
+8. [R. Age in Days](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R)
+
+9. [S. Sum of Consecutive Odd Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/S)
+
 </details>
 </details>
 
