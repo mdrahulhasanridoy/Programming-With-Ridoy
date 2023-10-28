@@ -1416,7 +1416,7 @@ char arr[5]; // character array; it means you can store 5 character values in th
 ```
 </details>
 
-<detais>
+<details>
 <summary> Accessing An Array </summary>
 
 ```c
