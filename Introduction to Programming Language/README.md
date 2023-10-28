@@ -1399,8 +1399,7 @@ Output:
 <details>
 <summar> What is Array? </summary>
 
-- An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base v
-alue, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
+- An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
 
 Array syntax:
 
@@ -1426,6 +1425,7 @@ int arr[5];
 
 
 |   | int | int | int | int | int |
+|---|-----|-----|-----|-----|-----|
 | index | 0 | 1 | 2 | 3 | 4 |
 | variable | arr[0] | arr[1] | arr[2] | arr[3] | arr[4] |
 | memory address example | 1000 | 1004 | 1008 | 1012 | 1016 |
@@ -1437,7 +1437,9 @@ int arr[5];
 - arr[4] = 1000 + (4 * 4) = 1016
 
 ```math
-arr[i] = base_address + (size_of_data_type * i)
+\begin{align}
+arr[i] = base address + (size of data type * i) \\
+\end{align}
 ```
 
 </details>
@@ -1483,24 +1485,101 @@ int main()
 ```
 </details>
 
-- Now we will see how to work with array.
+
+<details>
+<summary>Now we will see how to work with array.</summary>
 
 ```c
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int arr[3];
-    //arr[0], arr[1], arr[2]
-    arr[0] = 10;
-    arr[1] = 20;
-    arr[2] = 30;
+    int arr[3]; // arr[3] means array of 3 elements
+    // arr[0], arr[1], arr[2]
+    arr[0] = 10; // 10 is assigned to arr[0]
+    arr[1] = 20; // 20 is assigned to arr[1]
+    arr[2] = 30; // 30 is assigned to arr[2]
 
     printf("%d %d %d\n", arr[0], arr[1], arr[2]);
+    // By using printf() function we can print the values of the array elements
     return 0;
 }
+```
 
 Output:
+
 ```terminal
 
 10 20 30
 ```
+</details>
+
+<details> 
+<summary> Array Initialization </summary>
+
+- Array Initialization is a process of assigning values to an array.
+
+- There are two ways to initialize an array.
+
+1. At the time of declaration
+
+```c
+int arr[3] = {10, 20, 30};
+```
+
+2. After declaration
+
+```c
+int arr[3];
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+```
+
+</details>
+
+<details>
+<summary>Printing Reverse Array</summary>
+
+
+| | 10 | 20 | 30 | 40 | 50 |
+|---|----|----|----|----|----|
+| index | 0 | 1 | 2 | 3 | 4 |
+
+Reverse array:
+
+| | 50 | 40 | 30 | 20 | 10 |
+|---|----|----|----|----|----|
+| index | 4 | 3 | 2 | 1 | 0 |
+
+```c
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {10, 20, 30, 40, 50};
+    for(int i = 4; i >= 0; i = i - 1) {
+        printf("%d\n", arr[i]);
+    }
+    return 0;
+}
+```
+
+</details>
+
+<details>
+<summary> Sum of an Array </summary>
+
+```c
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {10, 20, 30, 40, 50};
+    int sum = 0;
+    for(int i = 0; i < 5; i = i + 1) {
+        sum = sum + arr[i];
+    }
+    printf("%d\n", sum);
+    return 0;
+}
+```
+</details>
+</details>
