@@ -1367,7 +1367,7 @@ Output:
 </details>
 
 <details>
-<summary> Module 6.5: Week 02 Practice Day 02 </summary>
+<summary> Module 6.5: Week 02 Practice Day 01 </summary>
 
 <details>
 <summary> Practice Problems </summary>
@@ -1580,6 +1580,282 @@ int main()
     printf("%d\n", sum);
     return 0;
 }
+```
+</details>
+</details>
+
+<details>
+<summary> Module 7.5: Week 02 Practice Day 02 </summary>
+
+<details>
+<summary> Practice Problems </summary>
+
+1. [ A. Summation](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/A)
+
+2. [B. Searching](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B)
+
+3. [C. Replacement](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C)
+
+4. [D. Positions in array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/D)
+
+5. [E. Lowest Number](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E)
+
+6. [F. Reversing](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/F)
+
+</details>
+</details>
+
+<details>
+<summary> Module 8: Assignment 02 </summary>
+
+<details>
+<summary>Problems</summary>
+
+<details>
+<summary> Problem 1: Say It </summary>
+
+<b> Problem Statement </b>
+
+You will be given a positive integer <b> N </b>. You need to print "<b>I Want More Assignments</b>" <b>N</b> times without the quotation mark. Also print from <b>1 to N</b> with it. See the sample input output for more clarifications.
+
+<b> Input Format </b>
+
+- Input will contain only <b>N</b>.
+
+<b> Constraints </b>
+
+1. 1 <= N <= 10^5
+
+<b> Output Format </b>
+
+- Output "<b>I Want More Assignments</b>" <b>N</b> times along with <b>1 to N</b> and don't forget to print new line after it.
+
+<b> Sample Input 0 </b>
+
+```terminal
+5
+```
+<b> Sample Output 0 </b>
+
+```terminal
+1. I Want More Assignments
+2. I Want More Assignments
+3. I Want More Assignments
+4. I Want More Assignments
+5. I Want More Assignments
+```
+</details>
+
+<details>
+<summary> Problem 2: Is It a Challenge? </summary>
+
+<b> Problem Statement </b>
+
+You will be given an integer <b>N</b>. If <b>N</b> is a positive number then print from <b>1 to N</b>, otherwise print from <b>N to 0</b>.
+
+<b>Note</b>: A positive number is a number that is strictly greater than 0.
+
+<b> Input Format </b>
+
+- Input will contain only <b>N</b>.
+
+<b> Constraints </b>
+
+1. -10^5 <= N <= 10^5
+
+<b> Output Format </b>
+
+- Output as asked in the question and don't forget to put a <b>space</b> between the values.
+
+<b> Sample Input 0 </b>
+
+```terminal
+5
+```
+
+<b> Sample Output 0 </b>
+
+```terminal
+1 2 3 4 5
+```
+<b> Sample Input 1 </b>
+
+```terminal
+-4
+```
+
+<b> Sample Output 1 </b>
+
+```terminal
+-4 -3 -2 -1 0
+```
+
+</details>
+
+<details>
+<summary> Problem 3: Reverse and Odd </summary>
+
+<b> Problem Statement </b>
+
+You will be given a positive integer <b>N</b> and an array A of size <b>N</b>. Suppose, the index starts from <b>0</b>, then you need to print all the values at <b>odd indexes</b> in <b>reverse<b> way.
+
+<b> For example </b>
+
+if the input is
+
+```terminal
+6
+10 20 30 40 50 60
+```
+You need to print <b>60 40 20</b> as their indexes are <b>5 3 1</b> respectively.
+
+<b> Input Format </b>
+
+- First line will contain <b>N</b>.
+
+- Second line will contain the array <b>A</b>.
+
+<b> Constraints </b>
+
+1. 1 <= N <= 10^5
+2. 1 <= A[i] <= 1000 ; where A[i] are the values of array A.
+
+<b> Output Format </b>
+
+- Output the values of odd indexes in reverse way. Don't forget to put a space between two values.
+
+<b> Sample Input 0 </b>
+
+```terminal
+5
+10 20 30 40 50
+```
+
+<b> Sample Output 0 </b>
+
+```terminal
+40 20
+```
+
+<b> Sample Input 1 </b>
+
+```terminal
+6
+0 1 2 3 4 5
+```
+
+<b> Sample Output 1 </b>
+
+```terminal
+5 3 1
+```
+</details>
+
+<details>
+<summary>Problem 4: Sum Sum</summary>
+
+<b> Problem Statement </b>
+
+You will be given a positive integer N and N numbers after that. You need to tell the sum of positive numbers and the sum of negative numbers separated by a space.
+
+<b> Input Format </b>
+
+- First line will contain N.
+- Second line will contain N values named V.
+
+<b> Constraints </b>
+
+1. 1 <= N <= 10^5
+
+2. -1000 <= V <= 1000
+
+<b> Output Format </b>
+
+- Output the sum of positive numbers first, then sum of negative numbers.
+
+<b> Sample Input 0 </b>
+
+```terminal
+6
+5 -3 9 -10 2 8
+```
+
+<b> Sample Output 0 </b>
+
+```terminal
+24 -13
+```
+
+<b> Sample Input 1 </b>
+
+```terminal
+4
+1 0 -5 3
+```
+
+<b> Sample Output 1 </b>
+
+```terminal
+4 -5
+```
+
+</details>
+
+<details>
+<summary> Problem 5: Update and Print </summary>
+
+<b> Problem Statement </b>
+
+You will given a positive integer N and an array A of size N. Also you will be given two values X and V. You need to change the value of X'th index to V and then print the array in reverse way.
+
+Note: Index starts from 0.
+
+<b> Input Format </b>
+
+- First line will contain N.
+- Second line will contain the array A.
+- Third line will contain X and V.
+
+<b> Constraints </b>
+
+1. 1 <= N <= 10^5
+2. 1 <= A[i] <= 100 ; where A[i] are the values of array A.
+3. 0 <= X < N
+4. 1 <= V <= 100
+
+<b> Output Format </b>
+
+```terminal
+5
+10 20 30 40 50
+1 100
+```
+
+<b> Sample Output 0 </b>
+
+```terminal
+50 40 30 100 10
+```
+
+<b> Explanation 0 </b>
+
+```terminal
+After updating the value of 1st index, the array will become 10 100 30 40 50.
+The reverse order will be 50 40 30 100 10.
+```
+
+<b> Sample Input 1 </b>
+
+```terminal
+5
+10 20 30 40 50
+4 10
+```
+
+<b> Sample Output 1 </b>
+
+```terminal
+10 40 30 20 10 
 ```
 </details>
 </details>
