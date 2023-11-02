@@ -1857,5 +1857,233 @@ The reverse order will be 50 40 30 100 10.
 ```terminal
 10 40 30 20 10 
 ```
+
 </details>
 </details>
+
+<details>
+<summary> Recapping Module 8 </summary>
+
+- Array: It's a data structure that stores a collection of elements of the same type.
+
+| Declaration | Accessing | Initialization |
+|-------------|-----------|----------------|
+| int arr[3]; | arr[0] = 10; | int arr[3] = {10, 20, 30}; |
+
+- Contiguous memory allocation: It's a memory allocation technique in which each memory block is contiguous to each other.
+
+| index/subscript | 0 | 1 | 2 | 3 | 4 |
+|-----------------|---|---|---|---|---|
+| memory address | 1000 | 1004 | 1008 | 1012 | 1016 |
+| variable | arr[0] | arr[1] | arr[2] | arr[3] | arr[4] |
+| data type | int | int | int | int | int |
+| value | 10 | 20 | 30 | 40 | 50 |
+| size | 4 bytes | 4 bytes | 4 bytes | 4 bytes | 4 bytes |
+
+</details>
+
+<details>
+<summary> Learn use of array in different problems </summary>
+
+```c
+#include<stdio.h>
+int main()
+{
+    
+    //taking input in an array as you don't know the size of the array
+    int n;
+    scanf("%d",&n);
+    //int arr[5]; when you know the size of the array
+    int arr[n];
+    //int arr[5] = {10,20,30,40,50}; when you know the size of the array and the values of the array
+    for(int i=0;i<n;i++)
+    {
+        //taking values in the array
+        scanf("%d",&arr[i]);
+        //arr[i] means ith index of the array
+        // arr[0] = 10; means 10 is assigned to arr[0]
+        // arr[1] = 20
+        // arr[2] = 30
+        // arr[3] = 40
+        // arr[4] = 50
+        // We can also take input in this way
+    }
+    //printing the values of the array
+    for(int i=0;i<n;i++)
+    {
+        printf("%d\n",arr[i]);
+    }
+    //also we can print the values of the array in this way
+    // printf("%d %d %d %d %d\n",arr[0],arr[1],arr[2],arr[3],arr[4]);
+    return 0;
+
+}
+```
+
+- Segmentation Fault: It occurs when you try to access an invalid memory location.
+
+- Runtime Error: It occurs when your program compiles successfully but it crashes or terminates due to some reason.
+
+- Wrong Answer: It occurs when your program compiles successfully but it gives wrong output.
+
+- Accepted: It occurs when your program compiles successfully and gives correct output.
+
+
+1. How to show the size of an array inside a program?
+
+
+```c
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {10,20,30,40,50};
+    printf("%d\n",sizeof(arr)/sizeof(arr[0]));
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+5
+```
+
+2. Array Initialization values vs zero values
+
+
+```c
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {0,0,20,40,0};
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+0 0 20 40 0
+```
+
+3. Desentization of array
+
+
+```c
+#include<stdio.h>
+int main()
+{
+    int arr[5] = {[2] = 20,[4] = 40};
+    for(int i=0;i<5;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+0 0 20 0 40
+```
+
+4. Accessing array & replacing array values
+
+
+```c
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]%2==0)
+        {
+            arr[i] = 0;
+        }
+        printf("%d ",arr[i]);
+    }
+    return 0;
+}
+
+```
+
+5. How to search an element in an array?
+
+```c
+#include<stdio.h>
+int main()
+{
+    int n, search_item;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&search_item);
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==search_item)
+        {
+            printf("Found\n");
+            break;
+        }
+    return 0;
+    }
+}
+
+```
+
+6. When we use flag in array?
+
+- When we want to check if an element is present in an array or not.
+
+```c
+#include<stdio.h>
+int main()
+{
+    int n, search_item, flag = 0;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&search_item);
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==search_item)
+        {
+            flag = 1;
+            break;
+        }
+    }
+    if(flag==1)
+    {
+        printf("Found\n");
+    }
+    else
+    {
+        printf("Not Found\n");
+    }
+    return 0;
+}
+
+```
+
+</details>
+</details>
+
+<details>
