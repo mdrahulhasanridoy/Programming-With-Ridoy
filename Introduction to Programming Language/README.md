@@ -2094,7 +2094,7 @@ int main()
 
 - Inserting an element in an array means adding a new element in an array.
 
-![Inserting an element](image.png)
+![Inserting an element ](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/6b5fa5e3-cc2a-42f4-a274-df40f00f81fd)
 
 - Inserting 100 at index 1
 
