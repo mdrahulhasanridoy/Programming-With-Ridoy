@@ -2100,7 +2100,7 @@ int main()
 
 - Understanding the process of inserting an element in an array
 
-![Process inside code](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/8ab893b9-cdae-4d1b-8f82-183a41ad1ff7)
+![Process inside code](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/480541a3-1f37-46a9-9d64-de56599e7d0c)
 
 ```
 // or
