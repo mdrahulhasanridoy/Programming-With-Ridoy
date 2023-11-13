@@ -63,7 +63,7 @@ In C programming language, we can use printf function to print anything on the s
 <details>
 
 <summary>  How to comment in C programming language? </summary>
-
+1. 
 ```c
     // This is a single line comment
     /* This is a multi line comment */
@@ -2087,3 +2087,220 @@ int main()
 </details>
 
 <details>
+<summary> Module 9: Array Operation </summary>
+
+<details>
+<summary> Insert Element in an Array </summary>
+
+- Inserting an element in an array means adding a new element in an array.
+
+![[Pasted image 20231113122920.png]]
+Details:
+- arr [5] = arr[4]
+- arr [4] = arr[3]
+- arr [3] = arr[2]
+- arr [2] = arr[1]
+- arr [1] = 100
+- Understanding the process of inserting an element in an array
+
+```c
+ar[5] = arr[4];
+ar[4] = arr[3]; 
+ar[3] = arr[2];
+ar[2] = arr[1];
+ar[1] = 100;
+
+// or
+//arr[x] = ar[x-1]; means arr[1] = ar[0]
+```
+
+So, the size of the array will be increased by 1. Also, change the index of the elements after the inserted element.
+
+```c
+for(i = n; i >= position + 1; i--)
+{
+    arr[i] = arr[i - 1];
+}
+```
+
+</details>
+
+<details>
+<summary> Remove Element from an Array </summary>
+
+- Removing an element from an array means deleting an element from an array.
+
+
+| Value | 10 | 20 | 30 | 40 | 50 |
+|-------|----|----|----|----|----|
+| Index | 0 | 1 | 2 | 3 | 4 |
+
+- Removing 20 from the array
+
+| Value | 10 | 30 | 40 | 50 |
+|-------|----|----|----|----|
+| Index | 0 | 1 | 2 | 3 |
+
+Details:
+
+- arr [1] = arr[2]
+
+| Value | 10 | 30 | 30 | 40 | 50 |
+|-------|----|----|----|----|----|
+| Index | 0 | 1 | 2 | 3 | 4 |
+
+- arr [2] = arr[3]
+
+| Value | 10 | 30 | 40 | 40 | 50 |
+|-------|----|----|----|----|----|
+| Index | 0 | 1 | 2 | 3 | 4 |
+
+- arr [3] = arr[4]
+
+| Value | 10 | 30 | 40 | 50 | 50 |
+|-------|----|----|----|----|----|
+| Index | 0 | 1 | 2 | 3 | 4 |
+
+- Understanding the process of removing an element from an array
+
+```c
+ar[1] = arr[2];
+ar[2] = arr[3];
+ar[3] = arr[4];
+```
+
+So, the size of the array will be decreased by 1. Also, change the index of the elements after the removed element.
+
+```c
+for(i = position; i < n - 1; i++)
+{
+    arr[i] = arr[i + 1];
+}
+```
+
+</details>
+
+<details>
+<summary> Reverse an Array </summary>
+
+| From | 10 | 20 | 30 | 40 | 50 |
+|------|----|----|----|----|----|
+| To | 50 | 40 | 30 | 20 | 10 |
+
+- Understanding the process of reversing an array
+
+To understand the process, we need to know the following things:
+
+- Two Pointer Technique
+- Swapping
+
+<b> Two Pointer Technique </b>
+
+- Two pointer technique is a technique where we use two pointers to solve a problem.
+
+<b> Swapping </b>
+
+- Swapping means exchanging the values of two variables.
+
+```c
+#include<stdio.h>
+
+int main()
+{
+    int a = 10, b = 20;
+    int temp; // temporary variable
+    
+    // swapping
+    temp = a; // temp = 10
+    a = b; // a = 20
+    b = temp; // b = 10
+    printf("a = %d, b = %d\n", a, b);
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+a = 20, b = 10
+```
+
+- Understanding the process of reversing an array
+
+```c
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    int start = 0, end = n - 1;
+    while(start < end)
+    {
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        start++;
+        end--;
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+    return 0;
+}
+
+```
+
+</details>
+
+<details>
+<summary>Copy Elements of Two Array</summary>
+
+- arr1 = {10, 20, 30, 40, 50}
+
+| value | 10 | 20 | 30 | 40 | 50 |
+|-------|----|----|----|----|----|
+| index | 0 | 1 | 2 | 3 | 4 |
+
+- arr2 = {60, 70}
+
+| value | 60 | 70 |
+|-------|----|----|
+| index | 0 | 1 |
+
+- arr3 = arr1 & arr2
+
+| arr1 | 10 | 20 | 30 | 40 | 50 | arr2 | 60 | 70 |
+|------|----|----|----|----|----|------|----|----|
+| index | 0 | 1 | 2 | 3 | 4 | index | 0 | 1 |
+
+| arr3 | 10 | 20 | 30 | 40 | 50 | 60 | 70 |
+|------|----|----|----|----|----|----|----|
+| index | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+
+Details:
+
+- arr3[0] = arr1[0]
+- arr3[1] = arr1[1]
+- arr3[2] = arr1[2]
+- arr3[3] = arr1[3]
+- arr3[4] = arr1[4]
+- arr3[5] = arr2[0]
+- arr3[6] = arr2[1]
+
+Or,
+
+- arr3[i] = arr1[i] for i = 0 to 4
+- arr3[i] = arr2[j] for i = 5 to 6 and j = 0 to 1
+
+Other way, arr3[i] = arr2[i - 5] for i = 5 to 6
+
+- Understanding the process of copying elements of two array with explanation
+
+```c
+#include<stdio.h>
