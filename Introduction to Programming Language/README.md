@@ -2122,46 +2122,9 @@ for(i = n; i >= position + 1; i--)
 <details>
 <summary> Remove Element from an Array </summary>
 
-- Removing an element from an array means deleting an element from an array.
+- Removing an element from an array means deleting an element from an array & understanding the process of removing an element from an array
 
-
-| Value | 10 | 20 | 30 | 40 | 50 |
-|-------|----|----|----|----|----|
-| Index | 0 | 1 | 2 | 3 | 4 |
-
-- Removing 20 from the array
-
-| Value | 10 | 30 | 40 | 50 |
-|-------|----|----|----|----|
-| Index | 0 | 1 | 2 | 3 |
-
-Details:
-
-- arr [1] = arr[2]
-
-| Value | 10 | 30 | 30 | 40 | 50 |
-|-------|----|----|----|----|----|
-| Index | 0 | 1 | 2 | 3 | 4 |
-
-- arr [2] = arr[3]
-
-| Value | 10 | 30 | 40 | 40 | 50 |
-|-------|----|----|----|----|----|
-| Index | 0 | 1 | 2 | 3 | 4 |
-
-- arr [3] = arr[4]
-
-| Value | 10 | 30 | 40 | 50 | 50 |
-|-------|----|----|----|----|----|
-| Index | 0 | 1 | 2 | 3 | 4 |
-
-- Understanding the process of removing an element from an array
-
-```c
-ar[1] = arr[2];
-ar[2] = arr[3];
-ar[3] = arr[4];
-```
+![Remove Element from an Array](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/07f7467f-6a21-491c-96a6-1d6daa15f488)
 
 So, the size of the array will be decreased by 1. Also, change the index of the elements after the removed element.
 
