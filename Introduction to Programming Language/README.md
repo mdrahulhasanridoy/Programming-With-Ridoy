@@ -63,7 +63,7 @@ In C programming language, we can use printf function to print anything on the s
 <details>
 
 <summary>  How to comment in C programming language? </summary>
-1. 
+
 ```c
     // This is a single line comment
     /* This is a multi line comment */
@@ -2094,13 +2094,10 @@ int main()
 
 - Inserting an element in an array means adding a new element in an array.
 
-![[Pasted image 20231113122920.png]]
-Details:
-- arr [5] = arr[4]
-- arr [4] = arr[3]
-- arr [3] = arr[2]
-- arr [2] = arr[1]
-- arr [1] = 100
+![Inserting an element](image.png)
+
+- Inserting 100 at index 1
+
 - Understanding the process of inserting an element in an array
 
 ```c
@@ -2254,7 +2251,7 @@ int main()
     return 0;
 }
 
-```
+,,,,,,```
 
 </details>
 
