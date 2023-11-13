@@ -2100,13 +2100,9 @@ int main()
 
 - Understanding the process of inserting an element in an array
 
-```c
-ar[5] = arr[4];
-ar[4] = arr[3]; 
-ar[3] = arr[2];
-ar[2] = arr[1];
-ar[1] = 100;
+![Process inside code](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/8ab893b9-cdae-4d1b-8f82-183a41ad1ff7)
 
+```
 // or
 //arr[x] = ar[x-1]; means arr[1] = ar[0]
 ```
