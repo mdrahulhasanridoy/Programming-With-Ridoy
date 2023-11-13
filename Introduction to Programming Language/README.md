@@ -1904,7 +1904,7 @@ int main()
         // arr[0] = 10; means 10 is assigned to arr[0]
         // arr[1] = 20
         // arr[2] = 30
-        // arr[3] = 40
+        // arr[3] = 40 
         // arr[4] = 50
         // We can also take input in this way
     }
