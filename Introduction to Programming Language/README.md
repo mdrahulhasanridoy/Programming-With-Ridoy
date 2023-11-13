@@ -2105,6 +2105,7 @@ int main()
 ```
 // or
 //arr[x] = ar[x-1]; means arr[1] = ar[0]
+// and ar[1] = 100;
 ```
 
 So, the size of the array will be increased by 1. Also, change the index of the elements after the inserted element.
