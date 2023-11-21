@@ -2159,30 +2159,11 @@ To understand the process, we need to know the following things:
 
 - Swapping means exchanging the values of two variables.
 
-```c
-#include<stdio.h>
-
-int main()
-{
-    int a = 10, b = 20;
-    int temp; // temporary variable
-    
-    // swapping
-    temp = a; // temp = 10
-    a = b; // a = 20
-    b = temp; // b = 10
-    printf("a = %d, b = %d\n", a, b);
-    return 0;
-}
-```
-
-Output:
-
-```terminal
-a = 20, b = 10
-```
+![Swapping](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/72bd1f6c-26c2-4fa0-8630-a993ebe8b3da)
 
 - Understanding the process of reversing an array
+
+![Swapping](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/b6687762-7338-4fa4-9e7c-32ecbf2a41b7)
 
 ```c
 #include<stdio.h>
@@ -2211,53 +2192,339 @@ int main()
     return 0;
 }
 
-,,,,,,```
+```
 
 </details>
 
 <details>
 <summary>Copy Elements of Two Array</summary>
 
-- arr1 = {10, 20, 30, 40, 50}
-
-| value | 10 | 20 | 30 | 40 | 50 |
-|-------|----|----|----|----|----|
-| index | 0 | 1 | 2 | 3 | 4 |
-
-- arr2 = {60, 70}
-
-| value | 60 | 70 |
-|-------|----|----|
-| index | 0 | 1 |
-
-- arr3 = arr1 & arr2
-
-| arr1 | 10 | 20 | 30 | 40 | 50 | arr2 | 60 | 70 |
-|------|----|----|----|----|----|------|----|----|
-| index | 0 | 1 | 2 | 3 | 4 | index | 0 | 1 |
-
-| arr3 | 10 | 20 | 30 | 40 | 50 | 60 | 70 |
-|------|----|----|----|----|----|----|----|
-| index | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+![Copy Elements of Two Array](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/169f2023-7383-4293-83ee-3bed3698f8cc)
 
 Details:
 
-- arr3[0] = arr1[0]
-- arr3[1] = arr1[1]
-- arr3[2] = arr1[2]
-- arr3[3] = arr1[3]
-- arr3[4] = arr1[4]
-- arr3[5] = arr2[0]
-- arr3[6] = arr2[1]
+- ar3[0] = ar1[0]
+- ar3[1] = ar1[1]
+- ar3[2] = ar1[2]
+- ar3[3] = ar1[3]
+- ar3[4] = ar1[4]
+- ar3[5] = ar2[0]
+- ar3[6] = ar2[1]
 
-Or,
+</details>
+</details>
 
-- arr3[i] = arr1[i] for i = 0 to 4
-- arr3[i] = arr2[j] for i = 5 to 6 and j = 0 to 1
+<details>
+<summary> Module 10: Introduction to String </summary>
 
-Other way, arr3[i] = arr2[i - 5] for i = 5 to 6
+<details>
+<summary> What is String? </summary>
 
-- Understanding the process of copying elements of two array with explanation
+- A string is a sequence of characters. In C programming, an array of characters is called a string.
+
+- Each string is terminated by a special character '\0' (null character) which marks the end of the string.
+
+- The value of a string is the collection of characters that make up the string.
+
+- Space is also considered as a character.
+
+![String](https://github.com/mdrahulhasanridoy/Programming-With-Ridoy/assets/99040899/0895a9bb-7938-4b79-908b-d8e559118e68)
+
+Size of a string in C programming:
 
 ```c
 #include<stdio.h>
+int main()
+{
+    char str[5];
+    printf("%d\n",sizeof(str));
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+5
+```
+
+</details>
+
+<details>
+<summary> String Initialization and Print </summary>
+
+- String Initialization
+
+```c
+    char a[5] = {'A','B','C','D','E'};
+    // char[5] = "ABCDE"; // This is also valid
+```
+
+- String Print
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[6] = "ABCDE\0";
+    // \0 is the null character. It is used to terminate a string.
+    //size of the array is 6 because \0 is also counted as a character
+    printf("%s",a);
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+ABCDE
+```
+
+Also we can print a string in this way:
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[] = "ABCDE"; //here we don't need to give the size of the array because the size of the array will be automatically calculated and assigned to the array
+
+    // \0 is not needed here because it is automatically added at the end of the string
+
+    printf("%s",a);
+    return 0;
+}
+```
+
+Output:
+
+```terminal
+ABCDE
+```
+
+</details>
+
+<details>
+<summary> String Input </summary>
+
+- Windows / Linux / Online IDE (Input)
+
+- In windows, extra memory can be used to store the input. So, we need to insure that the input is not greater than the size of the array.
+
+On the other hand, in linux, the input is stored in the array without using extra memory. So, we don't need to insure that the input is not greater than the size of the array. 
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[18]; //Bangladesh\0
+    scanf("%s",a);
+    printf("%s\n",a);
+    return 0;
+}
+```
+
+Input 1:
+
+```terminal
+Bangladesh
+```
+
+Output 1:
+
+```terminal
+Bangladesh
+```
+
+Input 2:
+
+```terminal
+Bangladesh is a beautiful country
+```
+
+Output 2:
+
+```terminal
+Bangladesh
+```
+
+- Input 2 is not fully stored in the array because the size of the array is 18 and the input is greater than the size of the array. So, the input is stored in the array until it gets a space.
+
+</details>
+
+<details>
+<summary> String Input with Spaces </summary>
+
+We can take input with spaces in two ways:
+
+1. gets() function
+
+2. fgets() function
+
+<b> gets() function </b>
+
+- gets() function is used to take input with spaces.
+
+- In windows, we can use gets() function to take input with spaces but in Online IDE, we can't use gets() function to take input with spaces. Because, gets() function is not supported in Online IDE. So, we need to use fgets() function to take input with spaces in Online IDE.
+
+- Windows
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    gets(a);
+    printf("%s\n",a);
+    return 0;
+}
+```
+
+- Input:
+
+```terminal
+Bangladesh is a beautiful country
+```
+
+- Output:
+
+```terminal
+Bangladesh is a beautiful country
+```
+
+However, it's important to note that `gets()` is considered dangerous and it's not recommended to use it. The reason is that `gets()` does not check the array bounds, which can lead to buffer overflow if the input string is longer than the size of the array. This can cause program instability or security vulnerabilities.
+
+<b> fgets() function </b>
+
+- fgets() function is used to take input with spaces. fgets() function is supported in both windows and Online IDE. So, we can use fgets() function to take input with spaces in both windows and Online IDE.
+
+- fgets() function syntax:
+
+```c
+fgets(string_name, size_of_string, stdin);
+```
+
+- fgets() function example:
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    fgets(a,80,stdin); //take size as you need (size_of_string)
+    // size_of_string <= size_of_array
+    // size_of_string = character + 1 (null character)
+
+    printf("%s\n",a);
+    return 0;
+}
+```
+
+Null character is automatically added at the end of the string. Also we can add null character manually to stop taking input.
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    fgets(a,80,stdin);
+    a[10] = '\0'; //manually added null character
+    printf("%s\n",a);
+    return 0;
+}
+```
+
+- Input:
+
+```terminal
+Bangladesh is a beautiful country
+```
+
+- Output:
+
+```terminal
+Bangladesh
+```
+
+</details>
+
+<details>
+<summary> Length of a String </summary>
+
+- Length of a string means the number of characters in a string.
+
+- We can find the length of a string in two ways:
+
+1. Using strlen() function
+
+2. Without using strlen() function
+
+<b> Using strlen() function </b>
+
+- strlen() function is used to find the length of a string.
+
+- strlen() function syntax:
+
+```c
+strlen(string_name);
+```
+
+- strlen() function example:
+
+```c
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[100];
+    fgets(a,80,stdin);
+    int len = strlen(a);
+    printf("%d\n",len);
+    return 0;
+}
+```
+
+<b> Without using strlen() function </b>
+
+- Without using strlen() function, we can find the length of a string by using a loop.
+
+- Without using strlen() function example:
+
+```c
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    fgets(a,80,stdin);
+    int len = 0;
+    for(int i=0;a[i]!='\0';i++)
+    {
+        len++;
+    }
+    printf("%d\n",len);
+    return 0;
+}
+```
+
+</details>
+
+<details>
+<summary> Practice Problems </summary>
+
+1. [A. Create A New String](https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/A) 
+2. [B. Let's use Getline](https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/B)
+3. [E. Count](https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/E)
+
+</details>
+</details>
+
+<details>
+<summary> Module 10.5: Week 03 Practice Day 01 </summary>
+
+<details>
+<summary> Practice Problems </summary>
+
+1. [M. Replace MinMax]() 
+2. F. Way Too Long Words 
+3. G. Conversion 
+4. I. Palindrome 
+5. D. Strings    
